@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background:rebeccapurple;
+    padding: 25px;
+ 
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.logo a{
+    color: aliceblue;
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+ul{
+    margin-right:30px;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 45px;
+}
+
+ul li a{
+    color: aliceblue;
+    list-style: none;
+    font-size: 20px;
+    font-family: 800;
+    cursor: pointer;
+}
